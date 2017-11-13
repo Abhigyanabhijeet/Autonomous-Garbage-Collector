@@ -23,8 +23,6 @@ To detect a garbage we first take a reference image (image without garbage) and 
 	2)	Gaussian Blur Filter: We apply Gaussian filter on both images.It is a linear filter. It blurs the image and thus reduce impulse noise. Subtracting two gaussian filtered images gives a un-sharp image. The Gaussian filter alone will blur edges and reduce contrast. Gaussian filters are faster than median filter because of less multiplications required but it cannot filter the salt and pepper noises.
 	3)	BGR image to GrayScale image: Converting image to grayscale eliminates the hue and saturation information while keeping the luminance.
 	4)	Absolute difference : The noise-free grayscale images are then subtracted to get the new object.
-
-	Absolute differene
 	5)	Closed binary image: The noise-free grayscale images are then subtracted to get the new object.
 	6)	Contour mapping: To identify closed contours we have used a openCv function for which we need to perform thresholding to convert grayscale to binary and then dilation to convert open shapes to closed contours.
 	
