@@ -27,8 +27,7 @@ To detect a garbage we first take a reference image (image without garbage) and 
 	Absolute differene
 	5)	Closed binary image: The noise-free grayscale images are then subtracted to get the new object.
 	6)	Contour mapping: To identify closed contours we have used a openCv function for which we need to perform thresholding to convert grayscale to binary and then dilation to convert open shapes to closed contours.
-	JOURNAL OF LATEX OCTOBER 2017	2
-	New Detected object
+	
 	7)	Image Classifier: The images of these objects are then sent to an Image classifier to label it as garbage or nongarbage.One suck classifier is Google Cloud Api,it helps in classifying image on cloud hence reducing processing cost.
 	
 	
