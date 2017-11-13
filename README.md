@@ -1,9 +1,6 @@
 # Autonomous-Garbage-Collector
 
 
-Autonomous Garbage Collection System
-Boga Vishal (ECE Dept, MIT Manipal), Abhijeet Kumar Sinha(EEE Dept, MIT Manipal), Anubhav Apurva(CCE Dept, MIT Manipal), and Mudit Malpani (ECE Dept, MIT Manipal)
-
  
 Abstract
 
@@ -62,4 +59,10 @@ The shortest path between origin(position of rover) and goal (garbage) is found 
 
 CONCLUSION
 This closed-loop autonomous system is very precise as the closed loop direct feedback applied in real time by camera over the environment makes sure that rover is in the right direction. This system is highly advisable for Commercial places such as malls, hospitals and especially in public places like parks.
+
+
+Abhijeet Kumar Sinha(EEE Dept, MIT Manipal),
+Boga Vishal (ECE Dept, MIT Manipal), 
+Anubhav Apurva(CCE Dept, MIT Manipal),
+Mudit Malpani (ECE Dept, MIT Manipal)
 
